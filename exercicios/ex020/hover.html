@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de hover</title>
+    <style>
+            div:hover{
+        color: rgb(168, 6, 101);
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>exemplo de hover</h1>
+    <p>passa o mause na palavra rola logo abaixo</p>
+    <div>
+        <strong>rola</strong>
+        <p> NO SEU CU OTARIO </p>
+    </div>
+</body>
+</html>
